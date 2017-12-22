@@ -42,7 +42,7 @@
 			"prettier prettier --trailing-comma es5 --single-quote --no-semi --write",
 			"git add"
 		],
-		"yarn.lock": ["git rm --cached"]
+		"yarn.lock": ["git rm --cached", "git add"]
 	},
 	"files": ["dist"],
 	"repository": {
